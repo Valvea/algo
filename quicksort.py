@@ -5,7 +5,7 @@ print(array)
 
 
 def sort(a):
-    if len(a)>1:
+    if a:
         pivot=len(a)//2
         left=[x for x in a if x<a[pivot] ]
         mid=[x for x in a if x==a[pivot]]
